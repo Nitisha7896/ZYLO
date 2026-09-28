@@ -1,0 +1,6 @@
+{
+  "name": "ATELIER VÉRA — Contemporary Fashion & Fine Leather Goods",
+  "description": "A high-end fashion e-commerce boutique featuring tailored ready-to-wear, handcrafted leather bags, refined accessories, intuitive filters, verified client reviews, and secure checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
