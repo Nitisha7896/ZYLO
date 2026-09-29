@@ -10,6 +10,7 @@ import { WishlistDrawer } from './components/WishlistDrawer';
 import { CheckoutModal } from './components/CheckoutModal';
 import { EditorialStory } from './components/EditorialStory';
 import { Footer } from './components/Footer';
+import { Chatbot } from './components/Chatbot';
 import { INITIAL_PRODUCTS } from './data/products';
 import { Product, CartItem, FilterState, ProductCategory, Review, CheckoutOrder } from './types';
 import { Check, Heart, ShoppingBag, Sparkles } from 'lucide-react';
@@ -584,6 +585,9 @@ export default function App() {
         discountRate={discountRate}
         onOrderCompleted={handleOrderCompleted}
       />
+
+      {/* n8n Concierge Chatbot */}
+      <Chatbot />
     </div>
   );
 }
